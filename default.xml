@@ -10,6 +10,16 @@
            sync-f="true"
            sync-j="8" />
 
+ <!-- KYLEPROXX -->
+ <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="du-n" />
+ <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-14.1" />
+ <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
+ <project path="external/chromium-webview" name="ishantvivek/android_external_chromium-webview" clone-depth="1" remote="github" revision="7.0" />
+ <!-- KYLEPROXX dependencies -->
+ <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
+ <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
+ <!-- END KYLEPROXX -->           
+
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -96,7 +106,6 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
