@@ -27,19 +27,9 @@ sync repo :
 Building
 --------
 
-After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
-
     . build/envsetup.sh
-    brunch
-
-
-You can also build (and see how long it took) for specific devices like this:
-
-    . build/envsetup.sh
-    time brunch angler
-
-Remember to `make clobber` every now and then!
-
+    lunch
+    brunch kylepro
 
 Optional After Successful Build
 --------------------------------
