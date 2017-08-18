@@ -18,6 +18,7 @@
  <!-- KYLEPROXX dependencies -->
  <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
+ <project path="frameworks/native" name="namdeptrai2003/android_frameworks_native" remote="github" revision="n7x" />
  <!-- END KYLEPROXX -->           
 
   <project path="build" name="platform/build" groups="pdk" >
@@ -341,7 +342,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
