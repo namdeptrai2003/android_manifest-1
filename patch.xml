@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- NV patch -->
   <project path="frameworks/native" name="namdeptrai2003/android_frameworks_native" remote="github" revision="n7x" />
