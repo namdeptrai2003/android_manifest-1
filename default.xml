@@ -18,7 +18,6 @@
  <!-- KYLEPROXX dependencies -->
  <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
- <project path="frameworks/native" name="namdeptrai2003/android_frameworks_native" remote="github" revision="n7x" /> 
  <!-- END KYLEPROXX -->           
 
   <project path="build" name="platform/build" groups="pdk" >
