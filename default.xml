@@ -571,5 +571,8 @@
 
   <!-- Add all tracked DU/AOSP repos -->
   <include name="n7x_default.xml" />
+  
+  <!-- Add all tracked DU/AOSP repos -->
+  <include name="patch.xml" />
 
 </manifest>
